@@ -1,0 +1,302 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+             
+        </title>
+        <style>
+  .yellow__box{
+	top: 0px;
+	left: 0px;
+  position:absolute;
+  width:50%;
+  height: 150%;
+  background:rgb(95, 138, 219);
+  z-index:1;
+}
+.red__box{
+  top:100px;
+  left:300px;
+  position:absolute;
+  width:60%;
+  height: 100%;
+  background: white;
+  margin-top: -70px;
+  border-radius: 30px;
+  
+  z-index:3;
+}
+.orange__box{
+  top:0px;
+  left:670px;
+  position:absolute;
+  width:50%;
+  height:150%;
+  background:lightblue;
+  z-index:2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.grad{
+	position: absolute;
+	top: 20px;
+	left: 350px;
+	right: 40px;
+	bottom: 40px;
+	width: auto;
+	height: auto;
+	background: lightblue; /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.header{
+	position: absolute;
+	top: calc(30% - 20px);
+	left: calc(30% - 100px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: ;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.card-right{
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 30px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	margin-top: -230px;
+	z-index: 2;
+}
+
+.card-right input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: white;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.card-right input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: white;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 10px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.card-right input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: rgb(115, 160, 226);
+	border: 1px solid rgb(119, 152, 214);
+	cursor: pointer;
+	border-radius: 10px;
+	color: white;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.card-right{
+  margin-bottom: 300px;
+}
+.card-right input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.card-right input[type=button]:active{
+	opacity: 0.6;
+}
+
+.card-right input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.card-right input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.card-right input[type=button]:focus{
+	outline: none;
+}
+
+.label{
+    color: rgb(27, 19, 19);
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.h1{
+    color: rgb(27, 19, 19);
+}
+
+
+
+
+
+
+
+
+
+        </style>
+    </head>
+<body>
+    <div class="yellow__box">
+    	
+<div class="w1">
+                    <div class="w2">
+                      <div class="w3">
+                      <div class="st">
+                        <table class="tg" border="0">
+                            <thead>
+                              <tr>
+                                <th class="tg-0pky">
+                                    <h4>
+                                        statistics
+                                    </h4>
+                                </th>
+                                <th class="tg-0pky">
+                                    <h4>
+                                        show more
+                                    </h4>
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="tg-0pky">
+                                    <div class="stlog">
+                                        <div class="dot">
+                                            <b>23</b>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="tg-0pky">
+                                    Total Hours
+                                    <i class="fa fa-clock-o" id="clock"></i>
+                                    <br>
+                                    <b id="br"> 1,240</b>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tg-0pky">
+                                    <input type="button" id="but1" value="super">
+                                    <input type="button" id="but2" value="Greate">
+                                    <input type="button" id="but3" value="Purpose">
+                                </td>
+                                <td class="tg-0pky">
+                                    Budget
+                                    <i class='far fa-dot-circle' style='font-size:36px;color:rgb(232, 147, 147)'></i>
+                                    <br>
+                                    <b id="br"> $2,500</b>
+                                    <br>
+                                    <input type="button" id="but4" value="+10%">
+                                    <i id="new">since last month</i>
+                                </td>
+                              </tr>
+                            </tbody>
+                            </table>
+                        </div> 
+                    </div>
+                    </div>
+                  </div>
+                </div>
+    	
+    </div>
+
+
+
+
+    <div class="red__box">
+
+
+
+
+
+      <div class="body"></div>
+      <div class="grad"></div>
+      <div class="header">
+        
+      </div>
+      <br>
+
+
+
+
+      <form>
+      <div class="card-right">
+  
+  
+              
+  			<center>
+  				<h1 class="h1">create your account</h1>
+              <p>It's free and easy</p>
+  			</center>
+           
+   
+                   <label class="name">Your name</label><br/>
+          <input type="text" placeholder="Enter your name"><br>
+                  <label class="eph">E-mail or phone number</label><BR/>
+                  <input type="text" placeholder="Type your e-mail or phone"><br>
+                  <label class="psw">password</label><br/>
+          <input type="password" placeholder="Type your password"><br>
+  
+  
+                  <p><input type="checkbox">By creating an account means that you agree to the <b>Terms and conditions</b> and our <b>Privacy Policy.</b></p>
+  
+          <input type="button" value="Register"><br>
+         
+
+      </div>
+</form>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="orange__box"></div>
+</body>
+
+</html>
